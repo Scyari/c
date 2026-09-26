@@ -1,4 +1,4 @@
-// findingNumberOfElement.c
+// findingNumberOfElementin array.c
 
 #include <stdio.h>
 int main()
