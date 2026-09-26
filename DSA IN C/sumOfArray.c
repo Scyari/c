@@ -1,3 +1,5 @@
+// Sum of array
+
 #include <stdio.h>
 int main()
 {
@@ -25,3 +27,11 @@ int main()
     printf("\nSum of Array : %d, ", sum);
     return 0;
 }
+
+// Output-->Enter the value of index 0: 4
+// Enter the value of index 1: 5
+// Enter the value of index 2: 7
+// Enter the value of index 3: 8
+// Array Elements:
+// 4, 5, 7, 8,
+// Sum of Array : 24,
