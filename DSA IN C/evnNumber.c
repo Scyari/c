@@ -1,4 +1,4 @@
-// calculate average
+// Find Even element
 
 #include <stdio.h>
 int main()
@@ -18,24 +18,24 @@ int main()
         printf("%d, ", arr[i]);
     }
 
-    // adding array element
-    int sum = 0;
+    // Even Element
+    printf("\nEven Elements: ");
     for (int i = 0; i < n; i++)
     {
-        sum += arr[i];
+        if (arr[i] % 2 == 0)
+        {
+            printf("\nEven Number : %d, ", arr[i]);
+        }
     }
-    printf("\nSum of Array : %d, ", sum);
 
-    float avg = (float)sum / n;
-    printf("\nAverage of elements: %2f", avg);
     return 0;
 }
 
-// Output-->Enter the value of index 0: 2
-// Enter the value of index 1: 45
-// Enter the value of index 2: 5
-// Enter the value of index 3: 5
+// Output-->Enter the value of index 1: 5
+// Enter the value of index 2: 87
+// Enter the value of index 3: 90
 // Array Elements:
-// 2, 45, 5, 5,
-// Sum of Array : 57,
-// Average of elements: 14.250000
+// 4, 5, 87, 90,
+// Even Elements:
+// Even Number : 4,
+// Even Number : 90,
