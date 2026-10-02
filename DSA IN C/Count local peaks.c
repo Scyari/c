@@ -1,3 +1,5 @@
+// Count local peaks
+
 #include <stdio.h>
 
 int main()
@@ -25,3 +27,11 @@ int main()
 
     return 0;
 }
+// Output-->Enter the value of index 0: 3
+// Enter the value of index 1: 8
+// Enter the value of index 2: 4
+// Enter the value of index 3: 9
+// Enter the value of index 4: 2
+// Enter the value of index 5: 7
+// Enter the value of index 6: 4
+// Number of local peaks = 3
