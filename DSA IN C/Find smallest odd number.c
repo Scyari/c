@@ -34,3 +34,9 @@ int main()
 
     return 0;
 }
+
+// Output-->Enter the value of index 0: 4
+// Enter the value of index 1: 6
+// Enter the value of index 2: 7
+// Enter the value of index 3: 8
+// Smallest odd number = 7
