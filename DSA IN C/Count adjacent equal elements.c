@@ -26,3 +26,11 @@ int main()
 
     return 0;
 }
+// Output-->Enter the value of index 0: 2
+// Enter the value of index 1: 2
+// Enter the value of index 2: 5
+// Enter the value of index 3: 7
+// Enter the value of index 4: 7
+// Enter the value of index 5: 7
+// Enter the value of index 6: 2
+// Count = 3
