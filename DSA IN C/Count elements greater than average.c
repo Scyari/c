@@ -1,3 +1,4 @@
+// Count elements greater than average
 #include <stdio.h>
 int main()
 {
@@ -34,3 +35,9 @@ int main()
 
     return 0;
 }
+// Enter the value of index 0: 5
+// Enter the value of index 1: 67
+// Enter the value of index 2: 87
+// Enter the value of index 3: 89
+// Average = 62.00
+// Count = 3

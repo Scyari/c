@@ -1,6 +1,5 @@
 // Find smallest odd number
 #include <stdio.h>
-
 int main()
 {
     int arr[4];
