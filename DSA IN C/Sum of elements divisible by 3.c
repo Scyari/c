@@ -1,3 +1,6 @@
+
+
+// "Sum of elements divisible by 3.c"
 #include <stdio.h>
 
 int main()
