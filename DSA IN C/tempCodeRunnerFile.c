@@ -1,3 +1,4 @@
+// Count elements greater than a given number
 #include <stdio.h>
 
 int main()
@@ -11,17 +12,21 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    int sum = 0;
+    int num;
+    int count = 0;
+
+    printf("Enter the number: ");
+    scanf("%d", &num);
 
     for (int i = 0; i < n; i++)
     {
-        if (arr[i] % 3 == 0)
+        if (arr[i] > num)
         {
-            sum = sum + arr[i];
+            count++;
         }
     }
 
-    printf("Sum of elements divisible by 3 = %d", sum);
+    printf("Count = %d", count);
 
     return 0;
 }
